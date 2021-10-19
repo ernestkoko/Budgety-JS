@@ -139,6 +139,82 @@ BOTTOM PART
     text-align: center;
 }
 
+.containter {
+    display: block;
+}
+
+
+/********************************************
+INCOME
+*************/
+
+.income {
+    display: inline-block;
+    color: #339955;
+    width: 50vw;
+    position: absolute;
+    left: 20px;
+}
+
+.income__title {
+    position: absolute;
+    right: 20px;
+    margin: 20px;
+}
+
+.income__list {
+    position: absolute;
+    right: 30px;
+    margin-top: 50px;
+}
+
+.item {
+    width: 30vw;
+    text-align: center;
+    margin: 0.5em;
+    height: 3em;
+    font-weight: 500;
+    border-style: outset;
+}
+
+.item__description {
+    float: left;
+    margin: auto auto;
+    padding: 10px;
+    color: #000;
+}
+
+.right {
+    position: relative;
+    float: right;
+    padding: 10px;
+}
+
+
+/********************************************
+EXPENSES
+*************/
+
+.expenses {
+    display: inline-block;
+    color: #aa3333;
+    width: 50vw;
+    position: absolute;
+    right: 20px;
+}
+
+.expenses_title {
+    position: absolute;
+    left: 20px;
+    margin: 20px;
+}
+
+.expenses__list {
+    position: absolute;
+    left: 30px;
+    margin-top: 50px;
+}
+
 .add__type {
     margin: 10px 0;
     height: 60%;
@@ -156,51 +232,11 @@ BOTTOM PART
     width: 3em;
 }
 
-.income {
-    display: inline-block;
-    color: #339955;
-}
-
-.income__title {}
-
-.expenses {
-    display: inline-block;
-    color: #aa3333;
-}
-
-.income__list,
-.expenses__list {
-    position: inherit;
-}
-
-.item {
-    position: relative;
-    width: 30vw;
-    text-align: center;
-    margin: 0.5em;
-    height: 3em;
-    font-weight: 500;
-    border-style: outset;
-}
-
 .item__delete--btn {}
 
 .item__value:hover+.item__delete--btn {
     color: mediumblue;
     visibility: visible;
-}
-
-.item__description {
-    float: left;
-    margin: auto auto;
-    padding: 10px;
-    color: #000;
-}
-
-.right {
-    position: relative;
-    float: right;
-    padding: 10px;
 }
 
 .expenses__list .item__value {
